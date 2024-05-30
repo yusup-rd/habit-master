@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HabitMaster.MainPage"
+             Title="Home"
+             BackgroundColor="#121212">
+
+    <ScrollView>
+        <StackLayout Spacing="15" Padding="20">
+            <Label Text="Achieve Your Goals Today!&#10;Complete Your Habits." 
+                   TextColor="White"
+                   FontFamily="PoppinsRegular" 
+                   FontSize="16" 
+                   HorizontalTextAlignment="Center"/>
+
+            <StackLayout x:Name="habitStackLayout" Spacing="10"></StackLayout>
+
+            <Button Text="Add Habit" 
+                    ImageSource="add_accent.svg"
+                    ContentLayout="Left, 8"
+                    HeightRequest="63"
+                    FontSize="16"
+                    FontFamily="PoppinsSemibold"
+                    TextColor="#FF6F61"
+                    BackgroundColor="#333333"
+                    HorizontalOptions="FillAndExpand" 
+                    VerticalOptions="End" 
+                    Padding="20"
+                    Margin="0,20,0,0"
+                    Clicked="OnAddHabitButtonClicked" />
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

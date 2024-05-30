@@ -1,0 +1,51 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HabitMaster.AboutPage"
+             Title="About Us"
+             BackgroundColor="#121212">
+
+    <StackLayout Padding="20">
+        <Label 
+            Text="Discover our story!"
+            TextColor="#F5F5F5"
+            FontFamily="PoppinsRegular" FontSize="16" HorizontalTextAlignment="Center" Margin="0,0,0,15"/>
+
+        <Frame BackgroundColor="#333333" CornerRadius="20" Padding="10" Margin="10">
+            <StackLayout>
+                <Label 
+                    Text="Application Description:" TextColor="#F5F5F5"
+                    FontFamily="PoppinsSemibold" FontSize="24" HorizontalTextAlignment="Center"/>
+
+                <Label 
+                    Text="Welcome to Habit Master, your personal habit tracking companion designed to help you achieve your goals and improve your life. With Habit Master, you can easily monitor your daily habits, track your progress, and stay motivated on your journey towards self-improvement."
+                    TextColor="#F5F5F5"
+                    FontFamily="PoppinsRegular" FontSize="16" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+        </Frame>
+
+        <Frame BackgroundColor="#333333" CornerRadius="20" Padding="10" Margin="10">
+            <StackLayout>
+                <Label 
+                    Text="Developer:" TextColor="#F5F5F5"
+                    FontFamily="PoppinsSemibold" FontSize="24" HorizontalTextAlignment="Center"/>
+
+                <Label 
+                    Text="Habit Master is developed with care by Yusup Rejebov. We are dedicated to creating user-friendly applications that empower individuals to take control of their habits and live their best lives."
+                    TextColor="#F5F5F5"
+                    FontFamily="PoppinsRegular" FontSize="16" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+        </Frame>
+
+        <Frame BackgroundColor="#333333" CornerRadius="20" Padding="10" Margin="10">
+            <StackLayout>
+                <Label 
+                    Text="Version:" TextColor="#F5F5F5"
+                    FontFamily="PoppinsSemibold" FontSize="24" HorizontalTextAlignment="Center"/>
+
+                <Label 
+                    Text="Current Version: v0.0.1" TextColor="#F5F5F5"
+                    FontFamily="PoppinsRegular" FontSize="16" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

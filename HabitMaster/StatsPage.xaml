@@ -1,0 +1,11 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HabitMaster.StatsPage"
+             Title="Statistics"
+             BackgroundColor="#121212">
+    <StackLayout Padding="20">
+
+        <StackLayout x:Name="statisticsLayout"></StackLayout>
+    
+    </StackLayout>
+</ContentPage>

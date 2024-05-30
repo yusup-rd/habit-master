@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="HabitMaster.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:HabitMaster"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.BackgroundColor="#FF6F61"
+    Shell.TitleColor="#F5F5F5"
+    Shell.TabBarBackgroundColor="#F5F5F5"
+    Shell.TabBarTitleColor="#FF6F61"
+    Shell.TabBarForegroundColor ="#FF6F61"
+    Shell.TabBarUnselectedColor="#121212"
+    Title="HabitMaster">
+
+    <TabBar>
+        <Tab Title="Statistics" Icon="statistics.svg">
+            <ShellContent
+                Title="Statistics"
+                ContentTemplate="{DataTemplate local:StatsPage}"
+                Route="StatsPage" />
+        </Tab>
+        <Tab Title="Home" Icon="home.svg">
+            <ShellContent
+                Title="Home"
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage" />
+        </Tab>
+        <Tab Title="About" Icon="about.svg">
+            <ShellContent
+                Title="About Us"
+                ContentTemplate="{DataTemplate local:AboutPage}"
+                Route="AboutPage" />
+        </Tab>
+    </TabBar>
+
+    <Shell.Triggers>
+    </Shell.Triggers>
+
+
+</Shell>
